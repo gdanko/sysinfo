@@ -2,6 +2,7 @@ package util
 
 import (
 	"fmt"
+	"math"
 	"os"
 
 	"github.com/gdanko/sysinfo/globals"
@@ -70,4 +71,8 @@ func ValidateOpts(opts *globals.Options) (err error) {
 		opts.NetworkOptions.ProtocolCounters = true
 	}
 	return nil
+}
+
+func RoundTo(n float64, decimals uint32) float64 {
+	return math.Round(n*math.Pow(10, float64(decimals))) / math.Pow(10, float64(decimals))
 }
