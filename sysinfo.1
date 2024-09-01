@@ -1,0 +1,56 @@
+.\" Manpage for sysinfo.
+.\" Contact gdanko@protonmail to correct errors or typos.
+.TH SYSINFO 1 "21 May 2023" "0.3,4" "User Commands"
+.SH NAME
+sysinfo \- Show information about various aspects of the local system
+.SH SYNOPSIS
+sysinfo [options]
+.SH DESCRIPTION
+sysinfo shows information about the local system, including things like load, cpu, memory, etc.
+.SH OPTIONS
+.IP "-a, --all"
+Show all information.
+.IP "-c, --cpu"
+Show CPU info, usage times, and usage percentages.
+.IP "    --per-cpu"
+By default, --cpu shows information from all of the CPUs. This options shows the information on a per-CPU basis.
+.IP "-d, --disk"
+Show information about all configured volumes.
+.IP "-i, --inode"
+Show inode information for all configured volumes.
+.IP "-u, --usage"
+Show usage information for all configured volumes.
+.IP "    --host"
+Show various information about the local system.
+.IP "    --temps"
+Show the temperatures for all of the system's sensors.
+.IP "    --users"
+Show users configured on the system.
+.IP "-m, --memory"
+Show information about memory consumption.
+.IP "-n, --network"
+Show information about all TCP and UDP connections.
+.IP "    --filter-counters"
+Show iptables conntrack statistics.
+.IP "    --io-stats"
+Show I/O statistics for every installed interface.
+.IP "    --interfaces"
+Show information about every installed interface.
+.IP "    --proto-counters"
+Show network protocol counters.
+.IP "-s, --swap"
+Show information about swamp usage.
+.IP "-p, --process"
+Show information about all system processes.
+.IP "    --by-pid"
+Specify a process ID when listing processes. This flag can be used multiple times.
+.IP "    --by-name"
+Find processes by full or partial name. This flag can be used multiple times.
+.IP "    --by-user"
+Find processes belonging to a specific username. This flag can be used multiple times.
+.IP "-h, --help"
+Print help.
+.IP "-V, --version"
+Display version information.
+.SH BUGS
+Please send bug reports to (gary_danko@intuit.com)
