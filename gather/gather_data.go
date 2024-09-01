@@ -1,6 +1,6 @@
 package gather
 
-import "github.intuit.com/gdanko/sysinfo/stats"
+import "github.com/gdanko/sysinfo/stats"
 
 func GetCpuPercent(c chan func() ([]stats.PercentStat, error)) {
 	c <- (func() ([]stats.PercentStat, error) {

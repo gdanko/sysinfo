@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/gdanko/sysinfo/globals"
 	"github.com/sirupsen/logrus"
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
-	"github.intuit.com/gdanko/sysinfo/globals"
 )
 
 // ConfigureLogger : Configure the logger

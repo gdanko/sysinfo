@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/gdanko/sysinfo/gather"
+	"github.com/gdanko/sysinfo/globals"
+	"github.com/gdanko/sysinfo/internal"
+	"github.com/gdanko/sysinfo/stats"
+	"github.com/gdanko/sysinfo/util"
 	"github.com/jessevdk/go-flags"
 	"github.com/sirupsen/logrus"
-	"github.intuit.com/gdanko/sysinfo/gather"
-	"github.intuit.com/gdanko/sysinfo/globals"
-	"github.intuit.com/gdanko/sysinfo/internal"
-	"github.intuit.com/gdanko/sysinfo/stats"
-	"github.intuit.com/gdanko/sysinfo/util"
 )
 
 const (

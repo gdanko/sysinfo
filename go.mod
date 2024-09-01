@@ -1,4 +1,4 @@
-module github.intuit.com/gdanko/sysinfo
+module github.com/gdanko/sysinfo
 
 go 1.22
 

@@ -2,19 +2,7 @@
 sysinfo is small utility that displays basic information about your system.
 
 ## Installation and upgrade
-Free is delivered via [Homebrew](https://brew.sh/). To install free, follow those steps:
-
-`brew tap intuit/gdanko https://github.intuit.com/gdanko/homebrew`
-
-`brew update`
-
-`brew install sysinfo`
-
-To upgrade free, follow these steps:
-
-`brew update`
-
-`brew upgrade sysinfo`
+Coming soon
 
 ## Free Runtime Options
 ```
@@ -44,4 +32,4 @@ Help Options:
   ```
 
 ## Need Help?
-You can find me on Slack [@gdanko](https://intuit-slack-connect.slack.com/app_redirect?channel=W8GN53CA3) or email <Gary_Danko@intuit.com>
+Email <ganko@protonmail.com>
